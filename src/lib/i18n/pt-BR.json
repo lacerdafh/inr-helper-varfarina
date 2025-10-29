@@ -1,0 +1,57 @@
+{
+	"app": {
+		"name": "INR Helper",
+		"tagline": "Assistente para ajuste de dose de Varfarina",
+		"disclaimer": "Conteúdo Educacional - Sempre confirme com seu médico. Em urgência, procure um serviço de emergência."
+	},
+	"navigation": {
+		"calculator": "Calculadora",
+		"history": "Histórico",
+		"calendar": "Calendário",
+		"references": "Referências"
+	},
+	"modes": {
+		"patient": "Paciente",
+		"professional": "Profissional"
+	},
+	"form": {
+		"title": "Cálculo de Conduta INR",
+		"inr_label": "INR Atual",
+		"bleeding_label": "Presença de Sangramento",
+		"bleeding_none": "Nenhum",
+		"bleeding_minor": "Sangramento Menor",
+		"bleeding_major": "Sangramento com Risco de Morte",
+		"risk_factors": "Fatores de Risco para Sangramento",
+		"dts_current": "Dose Total Semanal Atual (mg/semana)",
+		"tablet_dose": "Dosagem do Comprimido (mg)",
+		"isolated_change": "Alteração isolada do INR após período estável?",
+		"calculate": "Calcular Conduta"
+	},
+	"results": {
+		"title": "Resultado da Avaliação",
+		"conduct": "Conduta",
+		"dts_adjustment": "Ajuste de Dose Total Semanal (DTS)",
+		"vitamin_k": "Vitamina K",
+		"follow_up": "Prazo de Reavaliação",
+		"justification": "Justificativa Clínica",
+		"save_plan": "Salvar Plano",
+		"new_consultation": "Nova Consulta"
+	},
+	"history": {
+		"title": "Histórico de Consultas",
+		"export_csv": "Exportar CSV",
+		"export_pdf": "Exportar PDF",
+		"clear_history": "Limpar Histórico",
+		"empty": "Nenhuma consulta registrada"
+	},
+	"calendar": {
+		"title": "Calendário de Doses",
+		"next_appointment": "Próxima Consulta",
+		"print": "Imprimir Calendário"
+	},
+	"references": {
+		"title": "Referências e Fontes",
+		"warnings": "Avisos Importantes",
+		"scientific_references": "Referências Científicas"
+	}
+}
