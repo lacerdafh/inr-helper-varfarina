@@ -1,0 +1,35 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^/?(?:/__data.json)?$",
+			"dest": "/"
+		},
+		{
+			"src": "^/calendario/?(?:/__data.json)?$",
+			"dest": "/calendario"
+		},
+		{
+			"src": "^/historico/?(?:/__data.json)?$",
+			"dest": "/historico"
+		},
+		{
+			"src": "^/referencias/?(?:/__data.json)?$",
+			"dest": "/referencias"
+		},
+		{
+			"src": "/.*",
+			"dest": "/![-]/catchall"
+		}
+	],
+	"overrides": {}
+}
